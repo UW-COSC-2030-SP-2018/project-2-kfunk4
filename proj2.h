@@ -86,7 +86,7 @@ int middle(int low, int high)
 * is the value it is looking for. If it is not it will check to see if the value is greater than or less
 * than the search value. If it is smaller it will take the left half of the vector and keep dividing it in 
 * half and seeing if the mid value is equal to the search value and do the same thing if it is larger with the
-* upper half. If it gets to only one element it will check the value if it matches if not
+* upper half. If it gets to only one element it will check the value if it matches it will return true if not
 * it then returns false because it did not successfully find the element.
 */
 
